@@ -1,0 +1,246 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    background-color: #062424;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    border-bottom: solid 2px rgba(184, 19, 19, 0.504);
+    z-index: 1;
+
+
+    }
+
+    .navitem
+    {
+        color:white ;
+        background-color: rgba(184, 19, 19, 0.404);
+        width: 10%;
+        display: inline-block;
+        height: 90%;
+        margin-top: 4px ;
+        text-align: center;
+        border-radius: 10px 30px;
+        line-height: 70px;
+        margin: 4px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        box-sizing: border-box;
+        border: #062424 1px solid;
+
+    }
+
+    .navsearch
+    {
+        text-align: right;
+        width: 50% ;
+        padding-right: 1px;
+
+        display: inline-block;
+        padding: right 0px;
+        height: 40px;
+
+    }
+
+ 
+
+    input{
+        height: 100%;
+        margin: 0px;
+
+
+    }
+
+
+    #navbar ::placeholder
+    {
+        color :#062424 ; 
+    }
+
+
+.basic
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/footer.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+footer
+{
+    background-color: rgb(61,61,61);
+    display: inline-block;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+
+
+}
+
+a{
+    text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-press :hover
+{
+    background-color: #ffffff98;  
+    color:#062424 ;
+    border-color:#740f0f ; 
+}
+
+#howus
+{
+    color : white ;
+    display: inline-block;
+
+    box-sizing: border-box;
+
+}
+
+#contact
+{
+    color : red;
+    display: inline-block;
+   box-sizing: border-box;
+}
+
+table{
+    width: 80%;
+    height: 80%;
+    background-color: #06242477; 
+    box-sizing: border-box;
+   margin-top: 100px;
+   margin-left: 10%;
+
+
+
+}
+
+#timage , #tdes , #tform
+{
+
+    height: 100% ;
+    box-sizing: border-box;
+    background-color: #06242498;
+     display: inline-block;
+
+
+}
+
+#timage
+{
+    background-image: url(../IMG/farmer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35% ;
+
+}
+
+
+
+#tdes
+{
+    width: 25%;
+    color:bisque ;
+    padding-top: 100px;
+    padding-left: 20px;
+
+
+}
+
+pre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tform
+{
+    width: 40%;
+
+}
+
+
+
+span{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgba(255, 140, 0, 0.945);
+    line-height: 2px;
+
+
+}
+
+
+
+#searchspace
+{
+    color:#062424;
+}
+
+
+#F
+{
+  
+    height: 70% ;
+    box-sizing: border-box ;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-top: 15%;
+
+
+}
+
+textarea
+{
+    height: 40%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+}
+
+
+.input {
+    margin: 2%;
+    width: 80%;
+display: block;
+height: 15%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 99px ;
+padding-left: 5px ;
+
+
+}
+
+
+.submit
+{
+   
+    background: linear-gradient(90deg, #e7dfdf , rgb(255, 140, 0));
+    border: 0px ;
+    font-weight: bold;
+    font-size: larger;
+    font-family: fantasy ;
+    letter-spacing: 2px ;
+    color: rgba(0, 0, 0, 0.76);
+
+}
+
+::placeholder
+{
+    font-family:cursive ;
+    padding-left: 10px;
+    color: gray ;
+
+}
+
